@@ -7,19 +7,20 @@ import { FaArrowRight } from "react-icons/fa6";
 import AskQuestion from "../../Components/AskQuestion";
 import Footer from "../../Components/Footer";
 
+
 const Home = () => {
   return (
     <div>
       <Navbar />
       <div>
         <span className="shadow-font">Success Stories</span>
-        <div className="font-semibold text-5xl mx-1  grid gap-y-2">
+        <div className="font-semibold text-5xl md:mx-1 mx-8 ml-40 md:ml-0 md:grid md:gap-y-2">
           <h1>Every success journey </h1>
           <h1>we've encountered. </h1>
         </div>
       </div>
 
-      <section className="flex ">
+      <section className="flex flex-wrap ">
         <div>
           <div className="relative">
             <img
