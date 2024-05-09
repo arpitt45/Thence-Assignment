@@ -4,7 +4,7 @@ import logo from "../assets/Logo.png";
 const Navbar = (props) => {
   return (
     <div>
-      <nav className="flex justify-between  items-center mb-8 border border-inherit rounded-full p-3 px-8  ">
+      <nav className="flex justify-between  items-center mb-8 border border-inherit rounded-full p-2 px-8  ">
         <img className="w-auto h-20" src={logo} alt="" />
 
         <div className=" flex gap-6">

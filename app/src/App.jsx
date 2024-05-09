@@ -1,7 +1,10 @@
 
 import './App.css'
-import Home from './Pages/Home.jsx'
-// import Navbar from './Components/Navbar'
+import Registration from './Pages/Forms/Registration'
+// import Success from './Pages/Success/Success'
+
+// import Home from './Pages/Home/Home.jsx'
+
 
 function App() {
 
@@ -9,7 +12,10 @@ function App() {
     <>
       {/* <Navbar/> */}
 
-        <Home/>      
+        {/* <Home/>  ?     */}
+        
+        {/* <Success/> */}
+        <Registration/>
     </>
   )
 }
