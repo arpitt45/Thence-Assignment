@@ -14,13 +14,13 @@ const Home = () => {
       <Navbar />
       <div>
         <span className="shadow-font">Success Stories</span>
-        <div className="font-semibold text-5xl md:mx-1 mx-8 ml-40 md:ml-0 md:grid md:gap-y-2">
-          <h1>Every success journey </h1>
+        <div className="font-semibold text-5xl md:mx-1 ml-32  md:ml-0 md:grid md:gap-y-2">
+          <h1 >Every success journey </h1>
           <h1>we've encountered. </h1>
         </div>
       </div>
 
-      <section className="flex flex-wrap ">
+      <section className="flex flex-wrap relative right-32 md:right-0 ">
         <div>
           <div className="relative">
             <img
@@ -41,7 +41,7 @@ const Home = () => {
               </div>
             </div>
 
-            <div className="w-44 h-36 bg-green-950 absolute top-52 right-0  rounded-xl shadow-xl">
+            <div className="w-44 h-36 bg-green-950 absolute top-52 -right-56 md:right-0  rounded-xl shadow-xl">
               <h4 className="relative top-6 right-1 text-4xl font-semibold text-white">
                 $0.5{" "}
                 <span className="text-sm text-right text-slate-200">
