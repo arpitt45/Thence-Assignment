@@ -12,10 +12,10 @@ const AskQuestionContainer = () => {
   };
 
   return (
-    <div style={{background:"#e8eee7", height:"40rem"}} className="ask-question-container  rounded-xl w-full flex justify-between ">
+    <div style={{background:"#e8eee7", height:"40rem"}} className="ask-question-container  rounded-xl md:w-full w-lvw flex justify-between relative ">
         <section>
-        <span style={{color:"gray"}} className="shadow-font relative top-16 left-40 ">What's on your mind</span>   
-        <div className="font-semibold text-5xl mx-1  relative top-20 left-40">
+        <span style={{color:"gray"}} className="shadow-font relative top-16 left-28 md:left-40 ">What's on your mind</span>   
+        <div className="font-semibold text-5xl mx-1  relative top-20 left-28 md:left-40">
           <h1>Ask Questions</h1>
         </div>
         </section>
@@ -23,14 +23,14 @@ const AskQuestionContainer = () => {
 
         <section>
 
-        <div class="container relative mx-auto px-4 bottom-32">
+        <div class="container relative mx-auto px-4 md:bottom-32 -bottom-40 right-44 md:right-0" >
   <div class="mx-auto max-w-3xl ">
     <div class="mb-24 text-center"></div>
     <div  class="pt-18 pb-18 rounded-4xl  px-4  sm:px-20 sm:pt-24 ">
-      <button class="group mb-8 flex w-full items-start justify-between border-b border-gray-400 pb-8 text-left">
-        <div class="max-w-xl pr-5">
-          <h3 class="mb-3 text-lg font-semibold text-green-500">Do you offer freelancers?</h3>
-          <p class="text-sm text-gray-500">Pretium ac auctor quis urna orci feugiat. Vulputate tellus velit tellus orci auctor vel nulla facilisi ut. </p>
+      <button class="group mb-8 flex md:w-full w-72 items-start justify-between border-b border-gray-400 pb-8 text-left">
+        <div class="md:max-w-xl  pr-5">
+          <h3 class="mb-3 text-lg font-semibold text-green-500 ">Do you offer freelancers?</h3>
+          <p class="text-sm text-gray-500 ">Pretium ac auctor quis urna orci feugiat. Vulputate tellus velit tellus orci auctor vel nulla facilisi ut. </p>
         </div>
         <div class="pt-1">
           <span>

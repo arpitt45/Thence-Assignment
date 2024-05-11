@@ -13,8 +13,8 @@ const Home = () => {
     <div>
       <Navbar />
       <div>
-        <span className="shadow-font">Success Stories</span>
-        <div className="font-semibold text-5xl md:mx-1 ml-32  md:ml-0 md:grid md:gap-y-2">
+        <span className="shadow-font relative left-14 md:left-0">Success Stories</span>
+        <div className="font-semibold md:text-5xl text-3xl md:mx-1 ml-32  md:ml-0 md:grid md:gap-y-2">
           <h1 >Every success journey </h1>
           <h1>we've encountered. </h1>
         </div>
@@ -73,7 +73,7 @@ const Home = () => {
           </div>
         </div>
 
-        <div className="text-left relative top-16 text-3xl left-80">
+        <div className="text-left relative top-16 text-3xl left-56 md:left-80">
           <Carousel />
 
           <button className="button text-white text-lg px-10 py-4 rounded-full flex items-center relative top-8">
@@ -84,7 +84,7 @@ const Home = () => {
       </section>
 
       
-       <section className="flex relative top-20">
+       <section className="flex relative top-44 md:top-20">
        <AskQuestion/>
        </section>
        
