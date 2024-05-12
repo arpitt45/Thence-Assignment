@@ -2,7 +2,7 @@ import React from 'react'
 
 const Footer = () => {
   return (
-    <div style={{background:"#f5f5f5"}} className='flex justify-between  items-center mb-8  rounded-xl p-6 px-8   '>
+    <div style={{background:"#f5f5f5"}} className='flex justify-between  items-center mb-8  rounded-xl p-6 px-8 w-lvw md:w-full'>
        <div>
         <h5>&#169; Talup 2023. All right reserved</h5>
        </div>

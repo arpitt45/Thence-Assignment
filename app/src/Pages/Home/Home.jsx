@@ -84,11 +84,11 @@ const Home = () => {
       </section>
 
       
-       <section className="flex relative top-44 md:top-20">
+       <section className="flex relative top-44 md:top-20 ">
        <AskQuestion/>
        </section>
        
-       <section className="relative mt-16 top-14">
+       <section className="relative mt-16 md:top-14 top-40">
         <Footer/>
        </section>
 

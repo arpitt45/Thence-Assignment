@@ -12,7 +12,7 @@ const AskQuestionContainer = () => {
   };
 
   return (
-    <div style={{background:"#e8eee7", height:"40rem"}} className="ask-question-container  rounded-xl md:w-full w-lvw flex justify-between relative ">
+    <div style={{background:"#e8eee7"}} className="ask-question-container  rounded-xl md:w-full w-lvw flex justify-between relative responsive">
         <section>
         <span style={{color:"gray"}} className="shadow-font relative top-16 left-28 md:left-40 ">What's on your mind</span>   
         <div className="font-semibold text-5xl mx-1  relative top-20 left-28 md:left-40">
